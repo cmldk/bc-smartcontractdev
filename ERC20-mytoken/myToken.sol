@@ -6,7 +6,7 @@ contract myToken is ERC20 {
     
     string public token_name = "cmldkToken";
     string public token_symbol = "CDT";
-    uint public INITIAL_SUPPLY = 1000;
+    uint public INITIAL_SUPPLY = 100000;
     
     constructor () public ERC20(token_name, token_symbol) {
         _mint(msg.sender, INITIAL_SUPPLY);
