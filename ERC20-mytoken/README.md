@@ -16,7 +16,7 @@ ERC20 En önemli Ethereum token'larından biri olarak bilinir. Teknik standart o
 - **MetaMask**
 
 ### Başlarken
-Oluşturduğumuz örnek token için **OpenZeppelin** tarafından oluşturulan <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.0.0/contracts/token/ERC20/ERC20.sol" target="_blank">ERC20</a> standart kontrat örneğini kullanıyoruz. Buna ek olarak önceden <a href="https://github.com/trufflesuite/truffle/tree/master/packages/hdwallet-provider" target="_blank">**HDWalletProvider**</a> için gerekli olan bilgileri *secrets.json* dosyası oluşturarak tutabilirsiniz.
+Gerçekleştirdiğimiz örnek token için **OpenZeppelin** tarafından oluşturulan <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.0.0/contracts/token/ERC20/ERC20.sol" target="_blank">ERC20</a> standart kontrat örneğini kullanıyoruz. Buna ek olarak önceden <a href="https://github.com/trufflesuite/truffle/tree/master/packages/hdwallet-provider" target="_blank">**HDWalletProvider**</a> için gerekli olan bilgileri *secrets.json* dosyası oluşturarak tutabilirsiniz.
   > `{
     "mnemonic": "planet auto sign choice ...",
     "projectId": "305c137050..."
