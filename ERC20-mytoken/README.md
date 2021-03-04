@@ -1,8 +1,11 @@
 ## Truffle Suite kullanarak Ropsten Test Network üzerinde ERC20 Token örneği
+ERC20 En önemli Ethereum token'larından biri olarak bilinir. Teknik standart olarak ortaya çıkmıştır ve Ethereum'daki bütün akıllı sözleşmeler için token uygulaması olarak kullanılabilir. Oluşturulan token'lar gönderilebilir veya alınabilir.
+
+
 ### Gereksinimler
 - **NodeJS v12.16.1 >**
 
-- **Truffle v5.1.61 >**
+- **Truffle Suite**
     > `npm install -g truffle`
     > 
     > `truffle init`
@@ -13,7 +16,7 @@
 - **MetaMask**
 
 ### Başlarken
-Oluşturduğumuz örnek token için Openzeppelin tarafından oluşturulan <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.0.0/contracts/token/ERC20/ERC20.sol" target="_blank">ERC20</a> standart kontrat örneğini kullanıyoruz. Buna ek olarak önceden <a href="https://github.com/trufflesuite/truffle/tree/master/packages/hdwallet-provider" target="_blank">**HDWalletProvider**</a> için gerekli olan bilgileri *secrets.json* dosyası oluşturarak tutabilirsiniz.
+Oluşturduğumuz örnek token için **OpenZeppelin** tarafından oluşturulan <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.0.0/contracts/token/ERC20/ERC20.sol" target="_blank">ERC20</a> standart kontrat örneğini kullanıyoruz. Buna ek olarak önceden <a href="https://github.com/trufflesuite/truffle/tree/master/packages/hdwallet-provider" target="_blank">**HDWalletProvider**</a> için gerekli olan bilgileri *secrets.json* dosyası oluşturarak tutabilirsiniz.
   > `{
     "mnemonic": "planet auto sign choice ...",
     "projectId": "305c137050..."
