@@ -33,3 +33,5 @@ Ropsten Test Network üzerinde oluşturduğumuz smart contract örneğindeki fon
 > `truffle(ropsten)> CDToken = await CDToken.deployed()`
 
 > `truffle(ropsten)> CDToken.transfer('address','amount')`
+
+*Transaction Hash: <a href="https://ropsten.etherscan.io/tx/0x5e532a0d97354b6b8881cf5d726288c7f428afda6e4ec0ada839eb7d356667df" target="_blank" >0x5e532a0d97354b6b8881cf5d726288c7f428afda6e4ec0ada839eb7d356667df</a>*
