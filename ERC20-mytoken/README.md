@@ -29,7 +29,7 @@ Repo kapsamında oluşturduğumuz token'ı gereksinimleri karşıladıktan sonra
 
 > `../bc-smartcontractdev/ERC20-mytoken > truffle migrate --network ropsten`
 
-Ropsten Test Network üzerinde oluşturuduğumuz smart contract örneğindeki fonksiyonları çağırıp kullanabiliriz.
+Ropsten Test Network üzerinde oluşturduğumuz smart contract örneğindeki fonksiyonları çağırıp kullanabiliriz.
 > `truffle(ropsten)> CDToken = await CDToken.deployed()`
 
 > `truffle(ropsten)> CDToken.transfer('address','amount')`
