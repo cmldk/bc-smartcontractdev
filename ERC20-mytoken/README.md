@@ -24,12 +24,14 @@ Bu repo kapsamında önceden <a href="https://github.com/trufflesuite/truffle/tr
     }`
     
 ### Truffle Test
-Repo kapsamında oluşturduğumuz token'ı gereksinimleri karşıladıktan sonra terminal üzerinde test edebiliriz.
+Repo kapsamında oluşturduğumuz token'ı gereksinimleri karşıladıktan sonra terminal üzerinde deploy işlemini gerçekleştirebiliriz.
 > `../bc-smartcontractdev/ERC20-mytoken > npm install`
 
 > `../bc-smartcontractdev/ERC20-mytoken > truffle migrate --network ropsten`
 
 Ropsten Test Network üzerinde oluşturduğumuz smart contract örneğindeki fonksiyonları çağırıp kullanabiliriz.
+> `../bc-smartcontractdev/ERC20-mytoken > truffle console --network ropsten`
+
 > `truffle(ropsten)> CDToken = await CDToken.deployed()`
 
 > `truffle(ropsten)> CDToken.transfer('address','amount')`
