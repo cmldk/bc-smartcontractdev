@@ -1,3 +1,7 @@
+- [TR](#truffle-suite-kullanarak-ropsten-test-network-üzerinde-eRrc20-token-örneği)
+- [ENG](#a-decentralized-resource-management-system-proposal-for-disasters-ngo-rmsd)
+----------------------------------
+
 ## Truffle Suite kullanarak Ropsten Test Network üzerinde ERC20 Token örneği
 ERC20 en önemli Ethereum token'larından biri olarak bilinir. Teknik standart olarak ortaya çıkmıştır ve Ethereum'daki bütün akıllı sözleşmeler için token uygulaması olarak kullanılabilir. Oluşturulan token'lar gönderilebilir veya alınabilir. Gerçekleştirdiğimiz örnek token için **OpenZeppelin** tarafından oluşturulan <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.0.0/contracts/token/ERC20/ERC20.sol" target="_blank">ERC20</a> standart kontrat örneğini kullanıyoruz. 
 
