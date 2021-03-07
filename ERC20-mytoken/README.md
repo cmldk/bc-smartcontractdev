@@ -21,7 +21,7 @@ ERC20 en önemli Ethereum token'larından biri olarak bilinir. Teknik standart o
     > <a href="https://infura.io/" target="_blank">Infura.io</a> üzerinde oluşturduğunuz hesap ile bir proje kurmanız gerekiyor.
     
 ### Başlarken
-Bu repo kapsamında önceden <a href="https://github.com/trufflesuite/truffle/tree/master/packages/hdwallet-provider" target="_blank">HDWalletProvider</a> için gerekli olan bilgileri *secrets.json* dosyası üzerinde düzenlemeniz gerekiyor. Gerekli olan bilgiler Infura.io üzerinde oluşturduğunuz proje id'niz (projectId) ve MetaMask hesabınızın özel anahtarıdır (mnemonic).
+Bu repo kapsamında önceden <a href="https://github.com/trufflesuite/truffle/tree/master/packages/hdwallet-provider" target="_blank">HDWalletProvider</a> için gerekli olan bilgileri *secrets.json* dosyası üzerinde düzenlemeniz gerekiyor. Gerekli olan bilgiler Infura.io üzerinde oluşturduğunuz proje id'niz (projectId) ve MetaMask hesabınızın özel anahtarıdır (mnemonic). Özel anahtarınız yerine MetaMask hesabınızın gizli anahtar(private key) değerinide kullanabilirsiniz.
   > `{
     "mnemonic": "spot visa scrap autumn ...",
     "projectId": "6fe77efdff..."
