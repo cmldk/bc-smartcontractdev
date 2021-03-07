@@ -1,5 +1,5 @@
 - [TR](#truffle-suite-kullanarak-ropsten-test-network-üzerinde-erc20-token-örneği)
-- [ENG](#a-decentralized-resource-management-system-proposal-for-disasters-ngo-rmsd)
+- [ENG](#erc20-token-example-on-ropsten-test-network-using-truffle-suite)
 ----------------------------------
 
 ## Truffle Suite kullanarak Ropsten Test Network üzerinde ERC20 Token örneği
