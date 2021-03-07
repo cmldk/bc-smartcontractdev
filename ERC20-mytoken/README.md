@@ -45,7 +45,7 @@ Ropsten Test Network üzerinde oluşturduğumuz smart contract örneğindeki fon
 ----------------------------------
 
 ## ERC20 Token Example on Ropsten Test Network using Truffle Suite
-For this example, we will use <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.0.0/contracts/token/ERC20/ERC20.sol" target="_blank">ERC20</a> standard contract that is crated by **OpenZeppelin**. 
+For this example, we will use <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.0.0/contracts/token/ERC20/ERC20.sol" target="_blank">ERC20</a> standard contract that is created by **OpenZeppelin**. 
 
 ### Requirements
 - **NodeJS v12.16.1 >**
